@@ -1,0 +1,108 @@
+\begin{table}[hbt!]
+\caption{Medians and IQR of the six algorithms over 30 independent runs. Dark/light gray emphasizes the best/second-best results. $\blacktriangle$ EFT-GVNS outperforms with statistical significance; otherwise $\triangledown$, $-$ for no statistical difference.}\label{tb:fpppp8and16}
+\centering
+\resizebox{\width}{\height}{
+\begin{tabular}{|l|c|c|c|c|c|c|c|} \hline
+Problema &HEFT &EDA &EFT-ILS &GRASP-CPA &MPQGA &EFT-GVNS\\\hline
+Fpppp-8-334-0.1-0.1 &$1.02E2\blacktriangle$ &$9.84E1\blacktriangle$ &$9.40E1\blacktriangle$ &$9.36E1\blacktriangle$ &\cellcolor{gray25}$9.32E1\blacktriangle$ &\cellcolor{gray95}$8.81E1$\\
+\hline
+Fpppp-8-334-0.1-0.5 &$6.63E2_{0.0E0}\blacktriangle$ &$6.38E2_{3.3E1}\blacktriangle$ &$6.03E2_{1.3E1}\blacktriangle$ &\cellcolor{gray25}$6.01E2_{9.0E0}\blacktriangle$ &$6.09E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$5.62E2_{6.3E0}$\\
+\hline
+Fpppp-8-334-0.1-1 &$1.68E3_{0.0E0}\blacktriangle$ &$1.56E3_{7.5E1}\blacktriangle$ &$1.49E3_{2.3E1}\blacktriangle$ &\cellcolor{gray25}$1.48E3_{4.3E1}\blacktriangle$ &$1.50E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.37E3_{1.6E1}$\\
+\hline
+Fpppp-8-334-0.1-5 &$2.73E3_{0.0E0}\blacktriangle$ &$2.77E3_{4.3E2}\blacktriangle$ &$2.67E3_{8.9E1}\blacktriangle$ &$2.59E3_{9.9E1}\blacktriangle$ &\cellcolor{gray25}$2.36E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.12E3_{4.5E1}$\\
+\hline
+Fpppp-8-334-0.1-10 &$2.39E3_{0.0E0}\blacktriangle$ &$1.96E3_{2.4E2}\blacktriangle$ &$2.12E3_{1.0E2}\blacktriangle$ &$2.03E3_{9.9E1}\blacktriangle$ &\cellcolor{gray25}$1.65E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.52E3_{2.7E1}$\\
+\hline
+Fpppp-8-334-0.25-0.1 &$8.88E2_{0.0E0}\blacktriangle$ &$8.91E2_{1.3E1}\blacktriangle$ &$8.68E2_{8.6E0}\blacktriangle$ &$8.63E2_{1.3E1}\blacktriangle$ &\cellcolor{gray25}$8.55E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$8.16E2_{6.4E0}$\\
+\hline
+Fpppp-8-334-0.25-0.5 &$2.73E3_{0.0E0}\blacktriangle$ &$2.77E3_{6.8E1}\blacktriangle$ &$2.65E3_{4.1E1}\blacktriangle$ &$2.63E3_{3.3E1}\blacktriangle$ &\cellcolor{gray25}$2.57E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.45E3_{2.9E1}$\\
+\hline
+Fpppp-8-334-0.25-1 &$2.08E3_{0.0E0}\blacktriangle$ &$2.04E3_{1.2E2}\blacktriangle$ &$1.95E3_{2.9E1}\blacktriangle$ &$1.93E3_{3.8E1}\blacktriangle$ &\cellcolor{gray25}$1.90E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.78E3_{2.0E1}$\\
+\hline
+Fpppp-8-334-0.25-5 &$5.96E2_{0.0E0}\blacktriangle$ &$6.13E2_{6.9E1}\blacktriangle$ &$5.98E2_{2.2E1}\blacktriangle$ &$5.78E2_{2.4E1}\blacktriangle$ &\cellcolor{gray25}$4.80E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$4.56E2_{5.2E0}$\\
+\hline
+Fpppp-8-334-0.25-10 &$2.77E3_{0.0E0}\blacktriangle$ &$2.60E3_{3.6E2}\blacktriangle$ &$2.82E3_{1.6E2}\blacktriangle$ &$2.68E3_{1.5E2}\blacktriangle$ &\cellcolor{gray25}$2.30E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.10E3_{1.1E2}$\\
+\hline
+Fpppp-8-334-0.5-0.1 &$3.97E2_{0.0E0}\blacktriangle$ &$3.94E2_{1.3E1}\blacktriangle$ &$3.89E2_{7.5E0}\blacktriangle$ &\cellcolor{gray25}$3.83E2_{2.9E0}\blacktriangle$ &$3.85E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.61E2_{4.1E0}$\\
+\hline
+Fpppp-8-334-0.5-0.5 &$2.53E3_{0.0E0}\blacktriangle$ &$2.34E3_{1.3E2}\blacktriangle$ &\cellcolor{gray25}$2.24E3_{4.5E1}\blacktriangle$ &$2.25E3_{2.6E1}\blacktriangle$ &$2.28E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.11E3_{2.6E1}$\\
+\hline
+Fpppp-8-334-0.5-1 &$2.25E3_{0.0E0}\blacktriangle$ &$2.13E3_{7.9E1}\blacktriangle$ &$2.07E3_{3.6E1}\blacktriangle$ &$2.05E3_{2.7E1}\blacktriangle$ &\cellcolor{gray25}$1.99E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.87E3_{2.5E1}$\\
+\hline
+Fpppp-8-334-0.5-5 &$4.60E3_{0.0E0}\blacktriangle$ &$4.18E3_{4.0E2}\blacktriangle$ &$4.23E3_{9.6E1}\blacktriangle$ &$4.02E3_{1.9E2}\blacktriangle$ &\cellcolor{gray25}$3.73E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.13E3_{5.2E1}$\\
+\hline
+Fpppp-8-334-0.5-10 &$2.69E3_{0.0E0}\blacktriangle$ &$2.64E3_{3.8E2}\blacktriangle$ &$2.70E3_{1.3E2}\blacktriangle$ &$2.61E3_{1.6E2}\blacktriangle$ &\cellcolor{gray25}$1.99E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.87E3_{3.3E1}$\\
+\hline
+Fpppp-8-334-0.75-0.1 &$3.21E2_{0.0E0}\blacktriangle$ &$3.10E2_{8.9E0}\blacktriangle$ &$3.00E2_{5.8E0}\blacktriangle$ &$2.97E2_{5.2E0}\blacktriangle$ &\cellcolor{gray25}$2.96E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.77E2_{3.8E0}$\\
+\hline
+Fpppp-8-334-0.75-0.5 &$4.06E2_{0.0E0}\blacktriangle$ &$4.10E2_{1.6E1}\blacktriangle$ &$3.93E2_{8.4E0}\blacktriangle$ &$3.90E2_{8.4E0}\blacktriangle$ &\cellcolor{gray25}$3.74E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.57E2_{3.7E0}$\\
+\hline
+Fpppp-8-334-0.75-1 &$7.81E2_{0.0E0}\blacktriangle$ &$8.12E2_{3.8E1}\blacktriangle$ &$7.60E2_{1.9E1}\blacktriangle$ &$7.48E2_{2.0E1}\blacktriangle$ &\cellcolor{gray25}$7.25E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$6.80E2_{1.4E1}$\\
+\hline
+Fpppp-8-334-0.75-5 &$3.07E3_{0.0E0}\blacktriangle$ &$2.95E3_{2.8E2}\blacktriangle$ &$2.89E3_{6.8E1}\blacktriangle$ &$2.78E3_{1.0E2}\blacktriangle$ &\cellcolor{gray25}$2.47E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.25E3_{4.9E1}$\\
+\hline
+Fpppp-8-334-0.75-10 &$5.27E3_{0.0E0}\blacktriangle$ &$4.34E3_{4.2E2}\blacktriangle$ &$4.84E3_{2.4E2}\blacktriangle$ &$4.73E3_{2.0E2}\blacktriangle$ &\cellcolor{gray25}$4.10E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.57E3_{1.3E2}$\\
+\hline
+Fpppp-8-334-1-0.1 &$8.12E2_{0.0E0}\blacktriangle$ &$8.13E2_{2.2E1}\blacktriangle$ &$7.96E2_{1.5E1}\blacktriangle$ &$7.84E2_{1.6E1}\blacktriangle$ &\cellcolor{gray25}$7.77E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$7.51E2_{5.8E0}$\\
+\hline
+Fpppp-8-334-1-0.5 &$1.45E3_{0.0E0}\blacktriangle$ &$1.38E3_{1.1E2}\blacktriangle$ &$1.32E3_{2.2E1}\blacktriangle$ &$1.30E3_{3.1E1}\blacktriangle$ &\cellcolor{gray25}$1.28E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.21E3_{1.0E1}$\\
+\hline
+Fpppp-8-334-1-1 &$3.71E2_{0.0E0}\blacktriangle$ &$3.43E2_{3.0E1}\blacktriangle$ &$3.21E2_{8.9E0}\blacktriangle$ &$3.18E2_{8.6E0}\blacktriangle$ &\cellcolor{gray25}$3.08E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.88E2_{7.3E0}$\\
+\hline
+Fpppp-8-334-1-5 &$4.17E3_{0.0E0}\blacktriangle$ &$4.85E3_{9.0E2}\blacktriangle$ &$4.66E3_{1.8E2}\blacktriangle$ &$4.52E3_{2.0E2}\blacktriangle$ &\cellcolor{gray25}$3.61E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.27E3_{9.7E1}$\\
+\hline
+Fpppp-8-334-1-10 &$3.52E3_{0.0E0}\blacktriangle$ &$2.99E3_{3.7E2}\blacktriangle$ &$3.41E3_{1.2E2}\blacktriangle$ &$3.21E3_{1.5E2}\blacktriangle$ &\cellcolor{gray25}$2.64E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.40E3_{9.8E1}$\\
+\hline
+Fpppp-16-334-0.1-0.1 &$4.21E2_{0.0E0}\blacktriangle$ &$3.96E2_{2.3E1}\blacktriangle$ &$3.71E2_{9.5E0}\blacktriangle$ &$3.71E2_{8.5E0}\blacktriangle$ &\cellcolor{gray25}$3.61E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.44E2_{4.0E0}$\\
+\hline
+Fpppp-16-334-0.1-0.5 &$2.19E3_{0.0E0}\blacktriangle$ &$2.15E3_{2.1E2}\blacktriangle$ &$1.92E3_{6.0E1}\blacktriangle$ &$1.92E3_{6.6E1}\blacktriangle$ &\cellcolor{gray25}$1.85E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.76E3_{1.5E1}$\\
+\hline
+Fpppp-16-334-0.1-1 &$8.87E2_{0.0E0}\blacktriangle$ &$9.61E2_{7.9E1}\blacktriangle$ &$8.63E2_{2.2E1}\blacktriangle$ &$8.76E2_{2.4E1}\blacktriangle$ &\cellcolor{gray25}$7.95E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$7.58E2_{5.9E0}$\\
+\hline
+Fpppp-16-334-0.1-5 &$3.58E3_{0.0E0}\blacktriangle$ &$3.61E3_{3.3E2}\blacktriangle$ &$3.26E3_{1.3E2}\blacktriangle$ &$3.25E3_{9.9E1}\blacktriangle$ &\cellcolor{gray25}$2.68E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.51E3_{4.0E1}$\\
+\hline
+Fpppp-16-334-0.1-10 &$6.55E3_{0.0E0}\blacktriangle$ &$5.81E3_{7.3E2}\blacktriangle$ &$5.50E3_{3.2E2}\blacktriangle$ &$5.39E3_{3.2E2}\blacktriangle$ &\cellcolor{gray25}$4.97E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$4.36E3_{1.5E2}$\\
+\hline
+Fpppp-16-334-0.25-0.1 &$2.01E3_{0.0E0}\blacktriangle$ &$1.93E3_{1.3E2}\blacktriangle$ &$1.79E3_{4.9E1}\blacktriangle$ &$1.79E3_{4.6E1}\blacktriangle$ &\cellcolor{gray25}$1.71E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.66E3_{1.5E1}$\\
+\hline
+Fpppp-16-334-0.25-0.5 &$2.04E3_{0.0E0}\blacktriangle$ &$1.97E3_{2.4E2}\blacktriangle$ &$1.77E3_{6.2E1}\blacktriangle$ &$1.77E3_{5.1E1}\blacktriangle$ &\cellcolor{gray25}$1.69E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.63E3_{2.0E1}$\\
+\hline
+Fpppp-16-334-0.25-1 &$6.10E2_{0.0E0}\blacktriangle$ &$5.75E2_{5.2E1}\blacktriangle$ &$5.15E2_{2.3E1}\blacktriangle$ &$5.11E2_{2.0E1}\blacktriangle$ &\cellcolor{gray25}$4.90E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$4.55E2_{4.8E0}$\\
+\hline
+Fpppp-16-334-0.25-5 &$1.71E3_{0.0E0}\blacktriangle$ &$1.97E3_{2.6E2}\blacktriangle$ &$1.86E3_{6.9E1}\blacktriangle$ &$1.81E3_{1.1E2}\blacktriangle$ &\cellcolor{gray25}$1.48E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.30E3_{4.4E0}$\\
+\hline
+Fpppp-16-334-0.25-10 &$1.02E3_{0.0E0}\blacktriangle$ &$7.65E2_{6.4E1}\blacktriangle$ &$8.03E2_{2.0E1}\blacktriangle$ &$7.73E2_{2.8E1}\blacktriangle$ &\cellcolor{gray25}$6.39E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$6.06E2_{5.4E0}$\\
+\hline
+Fpppp-16-334-0.5-0.1 &$1.65E3_{0.0E0}\blacktriangle$ &$1.55E3_{1.1E2}\blacktriangle$ &$1.46E3_{3.6E1}\blacktriangle$ &$1.44E3_{3.2E1}\blacktriangle$ &\cellcolor{gray25}$1.42E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.39E3_{1.2E1}$\\
+\hline
+Fpppp-16-334-0.5-0.5 &$1.66E3_{0.0E0}\blacktriangle$ &$1.50E3_{1.0E2}\blacktriangle$ &$1.35E3_{4.7E1}\blacktriangle$ &$1.35E3_{3.8E1}\blacktriangle$ &\cellcolor{gray25}$1.29E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.27E3_{1.0E1}$\\
+\hline
+Fpppp-16-334-0.5-1 &$4.56E2_{0.0E0}\blacktriangle$ &$4.29E2_{5.8E1}\blacktriangle$ &$3.78E2_{1.0E1}\blacktriangle$ &$3.75E2_{1.4E1}\blacktriangle$ &\cellcolor{gray25}$3.47E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.38E2_{5.4E0}$\\
+\hline
+Fpppp-16-334-0.5-5 &$3.23E3_{0.0E0}\blacktriangle$ &$3.29E3_{3.4E2}\blacktriangle$ &$2.86E3_{1.7E2}\blacktriangle$ &$2.85E3_{1.9E2}\blacktriangle$ &\cellcolor{gray25}$2.42E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.18E3_{4.5E1}$\\
+\hline
+Fpppp-16-334-0.5-10 &$8.66E2_{0.0E0}\blacktriangle$ &$9.09E2_{7.8E1}\blacktriangle$ &$9.23E2_{3.4E1}\blacktriangle$ &$8.96E2_{2.6E1}\blacktriangle$ &\cellcolor{gray25}$7.69E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$6.08E2_{1.5E1}$\\
+\hline
+Fpppp-16-334-0.75-0.1 &$3.75E2_{0.0E0}\blacktriangle$ &$3.45E2_{1.8E1}\blacktriangle$ &$3.25E2_{8.3E0}\blacktriangle$ &$3.22E2_{5.2E0}\blacktriangle$ &\cellcolor{gray25}$3.04E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$3.00E2_{1.3E0}$\\
+\hline
+Fpppp-16-334-0.75-0.5 &$6.77E2_{0.0E0}\blacktriangle$ &$6.25E2_{5.0E1}\blacktriangle$ &$5.84E2_{2.0E1}\blacktriangle$ &$5.88E2_{1.5E1}\blacktriangle$ &\cellcolor{gray25}$5.35E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$5.31E2_{2.1E0}$\\
+\hline
+Fpppp-16-334-0.75-1 &$7.40E2_{0.0E0}\blacktriangle$ &$6.67E2_{1.0E2}\blacktriangle$ &$6.05E2_{1.7E1}\blacktriangle$ &$6.10E2_{1.7E1}\blacktriangle$ &\cellcolor{gray25}$5.51E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$5.40E2_{7.0E0}$\\
+\hline
+Fpppp-16-334-0.75-5 &$4.51E3_{0.0E0}\blacktriangle$ &$4.03E3_{3.5E2}\blacktriangle$ &$3.69E3_{2.0E2}\blacktriangle$ &$3.65E3_{2.4E2}\blacktriangle$ &\cellcolor{gray25}$3.29E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$2.83E3_{5.1E1}$\\
+\hline
+Fpppp-16-334-0.75-10 &$2.41E3_{0.0E0}\blacktriangle$ &$2.02E3_{3.7E2}\blacktriangle$ &$1.99E3_{9.7E1}\blacktriangle$ &$1.93E3_{1.0E2}\blacktriangle$ &\cellcolor{gray25}$1.80E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.63E3_{3.1E1}$\\
+\hline
+Fpppp-16-334-1-0.1 &$8.05E2_{0.0E0}\blacktriangle$ &$7.76E2_{4.7E1}\blacktriangle$ &$7.49E2_{1.6E1}\blacktriangle$ &$7.40E2_{2.1E1}\blacktriangle$ &\cellcolor{gray25}$7.12E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$7.05E2_{1.8E0}$\\
+\hline
+Fpppp-16-334-1-0.5 &$1.16E3_{0.0E0}\blacktriangle$ &$1.02E3_{7.7E1}\blacktriangle$ &$9.45E2_{2.3E1}\blacktriangle$ &$9.47E2_{3.0E1}\blacktriangle$ &\cellcolor{gray25}$9.17E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$8.93E2_{1.6E1}$\\
+\hline
+Fpppp-16-334-1-1 &$5.34E2_{0.0E0}\blacktriangle$ &$4.89E2_{5.4E1}\blacktriangle$ &$4.56E2_{1.3E1}\blacktriangle$ &$4.50E2_{2.0E1}\blacktriangle$ &\cellcolor{gray25}$4.06E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$4.01E2_{3.0E0}$\\
+\hline
+Fpppp-16-334-1-5 &$1.86E3_{0.0E0}\blacktriangle$ &$1.62E3_{1.5E2}\blacktriangle$ &$1.45E3_{7.1E1}\blacktriangle$ &$1.45E3_{7.2E1}\blacktriangle$ &\cellcolor{gray25}$1.28E3_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$1.23E3_{1.6E1}$\\
+\hline
+Fpppp-16-334-1-10 &$1.11E3_{0.0E0}\blacktriangle$ &$9.70E2_{1.1E2}\blacktriangle$ &$9.78E2_{3.5E1}\blacktriangle$ &$9.45E2_{4.3E1}\blacktriangle$ &\cellcolor{gray25}$9.15E2_{0.0E0}\blacktriangle$ &\cellcolor{gray95}$7.60E2_{9.7E0}$\\
+\hline
+\end{tabular}}
+\end{table}
